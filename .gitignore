@@ -9,5 +9,6 @@ Thumbs.db
 .venv/
 .mypy_cache/
 
-# Data
-data/
+# Data - 路径占位文件除外
+data/*
+!data/.gitkeep
